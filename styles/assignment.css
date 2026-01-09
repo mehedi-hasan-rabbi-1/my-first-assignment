@@ -82,4 +82,67 @@
       display: inline-block;
     }
 
-    
+    /* Features Section */
+    .features {
+      padding: 120px 120px 120px 120px;
+      gap: 44px;
+      text-align: center;
+      background: #ffffff;
+  
+    }
+
+    .features h2 {
+      font-size:48px;
+      font-weight: bold;
+      line-height: auto;
+      margin-bottom: 10px;
+    }
+
+    .features p {
+      color:#637327;
+     font-weight: 16px;
+     line-height: auto;
+    }
+
+    .card-container {
+      display: flex;
+      gap: 44px;
+      justify-content: center;
+      width:1360px ;
+      height:300px ;
+    }
+
+    .card {
+      background: #ffffff;
+      padding: 24px;
+      width: 322px;
+      height: 300px;
+      border-radius: 8px;
+      gap: 16px;
+      box-shadow: 0 10px 25px rgba(0,0,0,.08);
+      margin: ;
+    }
+
+    .icon {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background:#f95555;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      
+      justify-content: center;
+      /* font-size: 18px; */
+      margin: 0 auto 15px;
+    }
+
+    .card h3 {
+      font-size: 24px;
+      margin-bottom: 8px;
+    }
+
+    .card p {
+      font-size: 16px;
+      color: #627327;
+    }
