@@ -120,7 +120,7 @@
       border-radius: 8px;
       gap: 16px;
       box-shadow: 0 10px 25px rgba(0,0,0,.08);
-      margin: ;
+      margin-top: 44px ;
     }
 
     .icon {
@@ -146,3 +146,45 @@
       font-size: 16px;
       color: #627327;
     }
+
+
+
+
+        /* ===== BRAIN SECTION ===== */
+    
+  .knowledge{
+     display: flex;
+      align-items: center;
+      padding: 120px 120px;
+      gap: 60px;
+  }
+ .knowledge .knowledge-img{
+    height: 600px;
+    width: 600px;
+    border-radius: 12px;
+  }
+.knowledge .knowledge-container{
+  width: 700px;
+  gap: 40px;
+  align-items: left;
+}
+.knowledge-content{
+  margin-bottom: 40px;
+align-items: left;
+}
+.knowledge-content p{
+  font-size: 16px;
+  color: #627282;
+}
+.knowledge-content h1{
+  font-size: 48px;
+  font-weight: bold;
+  margin: 16px 0;
+}
+.knowledge-list{
+width: 700px;
+height: 128px;
+gap: 16;
+text-decoration: none;
+align-items: left;
+}
