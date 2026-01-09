@@ -1,0 +1,41 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+.font-inter-uniquifier{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+.btn{
+  background-color: #30b868;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 16px 12px;
+}
+.logo img{
+  width: 139px;
+  height: 60px;
+}
+header{
+  background-color:white;
+}
+nav{
+ width: 1600px;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 60px 120px;
+}
+nav .manu{
+  display: flex;
+list-style: none;
+gap: 32px;
+}
+nav .manu a{
+  font-size: 16px;
+  font-weight: medium;
+  text-decoration: none;
+  color: black;
+}
